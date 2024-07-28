@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+# Task Management Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is project is a task management web application to enhance productivity and organization. This tool will assist users in managing their tasks efficiently, allowing them to stay organized and maintain productivity throughout their projects and daily activities.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Task List**:
+- **Add Tasks**:
+- **Delete Tasks**:
+- **Edit Tasks**:
+- **Search Tasks**:
+- **Tasks Category**:
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **HTML**: Used for structuring the web pages.
+- **Tailwind CSS**: Utility-first CSS framework for styling the application.
+- **React**: Used for adding interactivity and managing contact data.
+- **Vite**:
+- **Typescript**:
+- **Local Storage**: The data of this website is stored on the browsers local storage.
 
-- Configure the top-level `parserOptions` property like this:
+## Project Setup
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## License
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This project is licensed under the MIT License. See the [LICENSE](/LICENSE.md) file for details.
+
+## Contact
+
+If you have any questions or suggestions, please open an issue or contact me.
