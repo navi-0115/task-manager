@@ -1,21 +1,18 @@
 import "./App.css";
+import { dataTasks } from "./models/task-data.ts";
 import { useState } from "react";
 
 function App() {
-  const listTask = [
-    { id: 1, text: "Go to TETO" },
-    { id: 2, text: "Go home" },
-    { id: 3, text: "Bootcamp task" },
-  ];
+  const [tasks, setTasks] = useState(dataTasks);
 
   return (
     <div>
       <h1>Todo List</h1>
 
       <ul>
-        {listTask.map((task) => (
+        {tasks.map((task) => (
           <li key={task.id}>
-            <span>{task.text}</span>
+            <span>{task.title}</span>
           </li>
         ))}
       </ul>
