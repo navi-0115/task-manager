@@ -11,8 +11,8 @@ export function Form() {
 
   const handleSubmit = (event: { preventDefault: () => void }) => {
     event.preventDefault();
-    const submittedTitle = title;
-    console.log(submittedTitle);
+    const submittedTask = title;
+    console.log(submittedTask);
 
     setTitle("");
   };
