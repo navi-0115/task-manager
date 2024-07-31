@@ -2,8 +2,14 @@ import "./App.css";
 import { dataTasks } from "./models/task-data.ts";
 import { useState } from "react";
 
+interface Task {
+  id: number;
+  title: string;
+  isDone: boolean;
+}
+
 function App() {
-  const [tasks, setTasks] = useState(dataTasks);
+  const [tasks, setTasks] = useState<Task[]>(dataTasks);
 
   return (
     <div>
