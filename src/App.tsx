@@ -1,4 +1,4 @@
-import "./App.css";
+import "./index.css";
 import { TaskList } from "./components/TaskList.tsx";
 import { Form } from "./components/Form.tsx";
 import { Header } from "./components/Header.tsx";
